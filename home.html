@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato/Home</title>
+    <link rel="stylesheet" href="./home.css"/>
+    <script src="https://kit.fontawesome.com/74dff753b4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Gloock&family=Josefin+Sans:ital,wght@0,400;1,300&family=Pacifico&family=Rampart+One&family=Roboto:wght@300&family=Sacramento&family=Tilt+Prism&family=Wavefont:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- LINE 1 , BOX 1 , NAVBAR -->
+        <div class="navbar">
+            <div class="nav-logo">
+            <img src="./assets/zomato-logo-2.avif" class="nav-img"/>
+            </div>
+
+            <div class="nav-searchbar">
+                <div class="nav-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <select name="locations" id="locations" class="i-2">
+                        <option value="" disabled selected hidden>Select Location</option>
+                        <option value="Noida-sector-142">Noida-sector-142</option>
+                        <option value="Noida-sector-118">Noida-sector-118</option>
+                        <option value="vaishali">Vaishali</option>
+                        <option value="lajpat">Lajpat</option>
+                    </select>
+                </div>
+
+                <div class="vh"></div>
+                 
+                <div class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Search for restaurant, cuisuine or dish"></input>
+                </div>
+            </div>
+
+            <div class="nav-login">
+                <div class="button 1"><button>Log in</button></div>
+                <div class="button 2"><button>Sign in</button></div>
+            </div>
+        </div>
+
+
+        <!-- LINE 1 , BOX 2 , RANDOM LINE -->
+        <div class="rand-line">
+        <p><a>Home</a>
+            /
+            <a>India</a>
+            /
+            Delhi NCR Restaurants</p>
+        </div>
+
+
+        <!-- LINE 1 , BOX 3 , EATING TYPE -->
+        <div class="eat-type">
+            <div class="eat delivery">
+                <div class="eat-logo deliv">
+                    <img src="./assets/delivery-logo.avif"/>
+                </div>
+                <div class="eat-title">
+                    <h2>Delivery</h2>
+                </div>
+            </div>
+            <div class="eat dine-out">
+                <div class="eat-logo">
+                    <img src="./assets/delivery-logo.avif"/>
+                </div>
+                <div class="eat-title">
+                    <h2>Dine Out</h2>
+                </div>
+            </div>
+            <div class="eat nightlife">
+                <div class="eat-logo">
+                    <img src="./assets/delivery-logo.avif"/>
+                </div>
+                <div class="eat-title">
+                    <h2>Night Life</h2>
+                </div>
+            </div>
+        </div>
+        <hr/>
+
+        <!-- LINE 1 , BOX 4 , RATING BUTTONS -->
+        <div class="rating-buttons">
+            <select name="ratings" id="ratings" class="r-1">
+                <!-- FOCUS ON THIS THIS IS SOMETHING NEW YOU DIDNT KNOW ON HOW TO KINDA USE PLACEHOLDERS IN SELECT TAG -->
+                <option value="" disabled selected hidden>Filter</option>
+                <option value="">Star</option>
+                <option value="">Delivery time</option>
+                <option value="">Location</option>
+                
+            </select>
+
+            <div class="button-rating">
+                <select name="ratings" id="ratings" class="r-1">
+
+                    <option value="" disabled selected hidden>Rating</option>
+                    <option value="">4.5<i class="fa-regular fa-star"></i>+</option>
+                    <option value="">4.0<i class="fa-regular fa-star"></i>+</option>
+                    <option value="">3.5<i class="fa-regular fa-star"></i>+</option>
+                    <option value="">3.0<i class="fa-regular fa-star"></i>+</option>
+                </select>
+            </div>
+            
+            <div class="button-food-type">
+                <select name="ratings" id="ratings" class="r-1">
+                    <option value="" disabled selected hidden>Cuisines</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Italian">Italian</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="Japanese">Japanese</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+
+        <!-- LINE 1 , -->
+        <div class="food-type">
+
+            <h2>Inspiration for your first order</h2>
+            
+            <div class="food-types">
+                <div class="food-itm pizza">
+            
+                    <img src="./assets/pizza.avif"/>
+                    <h3>Pizza</h3>
+            
+                </div>
+            
+            
+                <div class="food-itm burger">
+            
+                    <img src="./assets/burgir.avif"/>
+                    <h3>Burger</h3>
+            
+                </div>
+
+
+                <div class="food-itm biryani">
+
+                    <img src="./assets/biryani.avif"/>
+                    <h3>Biryani</h3>
+            
+                </div>
+            
+            
+                <div class="food-itm icecream">
+            
+                    <img src="./assets/ice-cream.avif"/>
+                    <h3>Ice Cream</h3>
+            
+                </div>
+            
+            
+                <div class="food-itm chicken">
+            
+                    <img src="./assets/chicken.webp"/>
+                    <h3>Chicken</h3>
+            
+                </div>
+            
+            
+                <div class="food-itm rolls">
+
+                    <img src="./assets/rolls.avif"/>
+                    <h3>Rolls</h3>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+
+        <!-- BRAND TYPE -->
+
+        <div class="brand-type">
+            
+            <h2>Top brands for you</h2>
+            
+            <div class="food-brand">
+                <div class="food-brd">
+            
+                    <img src="./assets/mc.jpg" id="mcdoland"/>
+                    <h3>McDonald's</h3>
+            
+                </div>
+            
+            
+                <div class="food-brd">
+            
+                    <img src="./assets/bk-brandsuggest.avif"/>
+                    <h3>Burger King</h3>
+            
+                </div>
+
+
+                <div class="food-brd">
+
+                    <img src="./assets/kfc.avif"/>
+                    <h3>KFC</h3>
+            
+                </div>
+            
+            
+                <div class="food-brd">
+            
+                    <img src="./assets/subway.avif"/>
+                    <h3>Subway</h3>
+            
+                </div>
+            
+            
+                <div class="food-brd">
+            
+                    <img src="./assets/bikaner.avif"/>
+                    <h3>Bikanervala</h3>
+            
+                </div>
+            
+            
+                <div class="food-brd">
+
+                    <img src="./assets/lapinoz.avif"/>
+                    <h3>La Pino'z Pizza</h3>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+
+        <!-- RESTRAUNT TYPE -->
+        
+        <div class="restraunt-type">
+            
+            <h2>Delivery Restaurants in Delhi NCR</h2>
+            
+            <div class="restraunt-brand">
+
+                <!-- FIRST LINE OF RESTRAUNTS -->
+                <div class="rest-line1">
+
+                    <div class="rest">
+                        <img src="./assets/oriental-mom.avif"/>
+                        <div class="rest-desc">
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">Oriental Mom</h3>
+                                    <p class="restraunt-description">Asian, Chinese, Sichuan</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>4.6<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>150 for one</span>
+                                    <span>44 min</span>
+                                </div>
+                            </div>
+
+                            <div class="safety-ornot">
+                                <img src="./assets/max-safety-delivery.webp"/>
+                                <p>Follows all Max Safety measures to ensure your food is safe</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="rest">
+                        <img src="./assets/kwality.avif"/>
+                        <div class="rest-desc">
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">Kwality Wall's Frozen Dessert</h3>
+                                    <p class="restraunt-description">Ice cream, Desserts</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>4.3<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>300 for one</span>
+                                    <span>33 min</span>
+                                </div>
+                            </div>
+
+                            <div class="safety-ornot">
+                                <img src="./assets/max-safety-delivery.webp"/>
+                                <p>Follows all Max Safety measures to ensure your food is safe</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="rest">
+                        <img src="./assets/subwaybig.avif"/>
+                        <div class="rest-desc">
+
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">Subway</h3>
+                                    <p class="restraunt-description">Healthy food, Sandwich....</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>4.1<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>150 for one</span>
+                                    <span>23 min</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="safety-ornot">
+                            <img src="./assets/max-safety-delivery.webp"/>
+                            <p>Follows all Max Safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- SECOND LINE OF RESTRAUNTS -->
+                <div class="rest-line1">
+
+                    <div class="rest">
+                        <img src="./assets/lapinos.avif"/>
+                        <div class="rest-desc">
+
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">La Pino'z Pizza</h3>
+                                    <p class="restraunt-description">Pizza, Pasta, Ital...</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>4.0<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>150 for one</span>
+                                    <span>22 min</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="safety-ornot">
+                            <img src="./assets/max-safety-delivery.webp"/>
+                            <p>Follows all Max Safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                    <div class="rest">
+                        <img src="./assets/b-k.avif"/>
+                        <div class="rest-desc">
+
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">Burger King</h3>
+                                    <p class="restraunt-description">Burger, Fast Food, Desi...</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>3.8<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>150 for one</span>
+                                    <span>25 min</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="safety-ornot">
+                            <img src="./assets/max-safety-delivery.webp"/>
+                            <p>Follows all Max Safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+                    <div class="rest">
+                        <img src="./assets/medolands.avif"/>
+                        <div class="rest-desc">
+
+                            <div class="titl-rating">
+
+                                <div class="rest-name">
+                                    <h3 class="restraunt-name">Mc Donalds</h3>
+                                    <p class="restraunt-description">Burger, Wraps, Fast Food</p>
+                                </div>
+                                <div class="rest-rate">
+                                    <button>4.2<i class="fa-regular fa-star"></i></button>
+                                    <span><i class="fa-solid fa-indian-rupee-sign"></i>150 for one</span>
+                                    <span>32 min</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="safety-ornot">
+                            <img src="./assets/max-safety-delivery.webp"/>
+                            <p>Follows all Max Safety measures to ensure your food is safe</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+
+</body>
+</html>
